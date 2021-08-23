@@ -1,0 +1,349 @@
+/*Main*/
+main {
+  width: 100%;
+}
+.restaraunt_desc {
+  display: flex;
+
+  padding-top: 68px;
+  height: 635px;
+  background-image: url(../images/desc_bg_pattern.png);
+}
+.restaraunt_desc::after {
+  background: url(../images/desc_bg.png);
+}
+.restaraunt_desc_head {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+  margin-left: 295px;
+  margin-top: 10px;
+  width: 430px;
+}
+.restaraunt_desc_head_title {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #cc9900;
+  text-align: center;
+}
+.restaraunt_desc_head_decoration {
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.restaraunt_desc_head_text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 24px;
+}
+.restaraunt_desc_head_photo {
+  margin-left: 140px;
+}
+.restaraunt_desc_photo {
+  position: absolute;
+  margin-left: 775px;
+  margin-top: -20px;
+}
+.ingredients {
+  height: 758px;
+  width: 100%;
+  background: url(../images/ingredients_bg.png) no-repeat;
+}
+.ingredients_container {
+  width: 420px;
+  margin: auto;
+}
+.ingredients_desc {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  height: 560px;
+  width: 560px;
+  margin-top: 103px;
+  margin-left: 815px;
+  background-color: rgba(0, 0, 0, 0.67);
+}
+.ingredients_desc_title {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+  margin-top: 75px;
+  text-align: center;
+}
+.ingredients_desc_decoration {
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.ingredients_desc_text {
+  margin-left: 80px;
+  width: 420px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 70px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.ingredients_desc_photo {
+  display: flex;
+  justify-content: space-around;
+  width: 420px;
+  margin-left: 80px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 103px;
+
+  width: 100%;
+  background: url(../images/menu_bg_pattern.png);
+}
+.menu::after {
+  background: url(../images/desc_bg.png);
+}
+.menu_block {
+  font-family: "Yeseva One", cursive;
+  width: 470px;
+  height: auto;
+  margin-bottom: 40px;
+  margin-right: 167px;
+}
+.menu_block:last-child {
+  margin-top: -130px;
+}
+
+.menu_block_title {
+  font-weight: 400;
+  font-size: 36px;
+  color: #cc9900;
+  text-align: center;
+}
+.menu_block_decoration {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.menu_block_pos_list {
+  margin-bottom: 23px;
+  padding: 10px 15px;
+}
+.menu_block_pos_list_position {
+  display: flex;
+
+  justify-content: space-between;
+  border-bottom: solid 0.5px #cc9900;
+  font-weight: 400;
+
+  font-size: 24px;
+  color: #cc9900;
+  padding-bottom: 14px;
+}
+.special {
+  border: 1px solid #cc9900;
+  box-sizing: border-box;
+}
+.special_logo_block {
+  display: flex;
+  justify-content: flex-end;
+}
+.special_logo {
+  height: 14px;
+  width: 47px;
+  background-color: #d9bd70;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 5px 17px;
+}
+.menu_block_pos_list_title {
+  text-align: left;
+}
+.menu_block_pos_list_text {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 758px;
+  background: url(../images/reviews_bg.png) center no-repeat;
+}
+
+.guest_reviews {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 560px;
+  width: 770px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.guest_reviews_title {
+  font-family: "Yeseva One", cursive;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.guest_reviews_decoration {
+  margin-bottom: 28px;
+}
+.guest_reciews_decoration2 {
+  position: absolute;
+  left: 30px;
+  top: 166px;
+  color: #f2f4f4;
+  font-size: 96px;
+  opacity: 0.47;
+}
+.guest_reviews_text {
+  font-family: "Gentium Book Basic", serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #f2f4f4;
+  line-height: 45px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.guest_reviews_author {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.guest_reviews_contrainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 630px;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 710px;
+  background: url(../images/contact_bg_pattern.png) center no-repeat;
+}
+.order::after {
+  background: url(../images/desc_bg.png);
+}
+.order_photo {
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 70px;
+}
+.order_img {
+  margin-right: 30px;
+}
+
+.order_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.order_form_container {
+  width: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.order_form_title {
+  font-family: "Yeseva One", cursive;
+  color: #cc9900;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+}
+.order_form_decoration {
+  display: block;
+  margin: auto;
+  margin-bottom: 32px;
+  margin-top: 15px;
+}
+.order_form_text {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #4c4c4c;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.order_form_inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.order_form_inputs_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+input[type="submit"] {
+  width: 200px;
+  height: 35px;
+  background-color: #c9a131;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  color: #ffffff;
+  font-style: normal;
+  line-height: 15px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+input,
+select {
+  width: 200px;
+  height: 35px;
+  padding: 12px 15px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+select {
+  padding: 0 0;
+  padding-left: 15px;
+  color: grey;
+}
+input:focus {
+  border: 0.5px solid #c9a131;
+}
+option[value=""][disabled] {
+  display: none;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #c9a131;
+}

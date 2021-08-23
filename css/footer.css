@@ -1,0 +1,57 @@
+/*Footer*/
+footer {
+  height: 320px;
+  width: 100%;
+  background-color: #191919;
+  display: flex;
+
+  align-items: center;
+}
+.footer_item {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-right: 130px;
+  color: #ffffff;
+  height: 190px;
+  position: relative;
+}
+.footer_item:first-child {
+  margin-left: 220px;
+  width: 360px;
+}
+
+.footer_item:last-child {
+  margin-left: 60px;
+}
+
+.footer_item_title {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 18px;
+}
+.footer_item_decoration {
+  margin-bottom: 21px;
+}
+.footer_item_text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.footer_item_links {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+.fab {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.fab:hover {
+  opacity: 0.5;
+}

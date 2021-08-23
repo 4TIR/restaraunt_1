@@ -1,0 +1,146 @@
+/*Header*/
+header {
+  height: 80px;
+  width: 1420px;
+  margin: auto;
+  padding-left: 180px;
+  position: absolute;
+  background: linear-gradient(360deg, transparent, black 150%);
+}
+
+.header_iner {
+  display: flex;
+
+  align-items: center;
+  padding-top: 44px;
+}
+.header_logo {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 225px;
+}
+.header_logo:hover {
+  opacity: 0.75;
+}
+nav {
+  font-family: "Gentium Book Basic", serif;
+  display: flex;
+  font-size: 21px;
+  font-weight: 700;
+
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.nav__link {
+  margin-right: 54px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__link:last-child {
+  margin-right: 0px;
+}
+
+.nav__link:hover {
+  opacity: 0.75;
+}
+.social {
+  display: flex;
+}
+.social_item_facebook {
+  height: 20px;
+  width: 20px;
+  margin-left: 13px;
+  background: url(../images/facebook.svg) center no-repeat;
+}
+.social_item_youtube {
+  height: 23px;
+  width: 20px;
+  margin-left: 13px;
+  background: url(../images/youtube.svg) center no-repeat;
+}
+.social_item_twitter {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+  background: url(../images/twitter.svg) center no-repeat;
+}
+.social_item_twitter:hover {
+  opacity: 0.5;
+}
+.social_item_youtube:hover {
+  opacity: 0.5;
+}
+.social_item_facebook:hover {
+  opacity: 0.5;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  height: 670px;
+  width: 100%;
+  padding-top: 80px;
+  background: url(../images/Bg_header.png) center no-repeat;
+
+  z-index: 1000;
+}
+
+.intro_inner {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+  text-align: center;
+}
+.intro_title {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 90px;
+  color: #ffffff;
+}
+.intro_decoration {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.intro_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book {
+  width: 230px;
+  height: 58px;
+  border: 1px solid #000000;
+  background-color: rgba(0, 0, 0, 0.56);
+  text-decoration: none;
+  transition: opacity 0.8s;
+}
+.menu_button {
+  margin-left: 20px;
+  width: 230px;
+  height: 58px;
+  border: 1px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.28);
+  text-decoration: none;
+  transition: opacity 0.8s;
+}
+.intro_button_title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 58px;
+}
+.book:hover {
+  opacity: 0.8;
+}
+.menu_button:hover {
+  opacity: 0.7;
+}
